@@ -86,7 +86,7 @@ section {
 .info-preparation {
   background-color: white;
   padding-top: 20px;
-  margin-right: 29px;
+  margin-right: 10px;
   padding-left: 20px;
   padding-bottom: 30px;
 }
@@ -212,7 +212,7 @@ section {
   .info-preparation {
     background-color: white;
     padding-top: 20px;
-    margin-right: 29px;
+    margin-right: 10px;
     padding-left: 20px;
     padding-bottom: 80px;
     position: relative;
@@ -262,6 +262,10 @@ section {
     border-radius: 30px;
   }
 
+  .logo {
+    display: none;
+  }
+
   .banner {
     max-width: 719px;
     margin-bottom: 30px;
@@ -298,29 +302,39 @@ section {
 
   .info-preparation {
     background-color: white;
-    padding-top: 20px;
-    margin-right: 29px;
-    padding-left: 20px;
-    padding-bottom: 30px;
+  }
+
+  .main-info {
+    display: inline;
   }
 
   #difficulty {
-    display: block;
+    display: inline;
   }
 
   #time {
-    display: block;
+    display: inline;
   }
 
   #quantity {
-    display: block;
+    display: inline;
   }
 
   #cost {
-    display: block;
+    display: inline;
   }
 
   #notes {
-    display: block;
+    display: inline;
+  }
+
+  .background-button {
+    margin: 5px;
+  }
+
+  .logo {
+    display: inline;
+    color: black;
+    padding-left: 5px;
   }
 }
