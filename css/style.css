@@ -12,6 +12,16 @@
   font-style: normal;
 }
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* # UTILS */
 
 .container {
@@ -19,6 +29,10 @@
   padding: 0 10px;
   width: 1000px;
   max-width: 100%;
+}
+
+.d-none {
+  display: none;
 }
 
 .d-flex {
@@ -33,14 +47,58 @@
   display: inline;
 }
 
+section {
+  background-color: rgb(214, 205, 205);
+}
+
 /* # HEADER */
 
 .header-title {
   text-align: center;
   color: rgba(245, 173, 40, 0.849);
+  background-color: white;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.dessert-type {
+  margin-left: 20px;
+}
+
+.section-title {
+  margin: 15px 0;
+}
+
+.main-title {
+  color: rgb(60, 11, 105);
+  margin: 15px 0;
+}
+
+.info-preparation {
+  background-color: white;
+  padding-top: 20px;
+  margin-right: 29px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.main-info-title {
+  margin-bottom: 20px;
+}
+
+.main-info {
+  margin-bottom: 10px;
+}
+
+.social-button {
+  margin: 30px;
+  border-radius: 5px;
+  background-color: white;
 }
 
 /* # MAIN */
+
+/* # ANTEPRIMA E INFO PREPARAZIONE */
 
 .tiramisù-video {
   max-width: 450px;
