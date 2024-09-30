@@ -58,7 +58,7 @@ section {
   text-align: center;
   color: rgba(245, 173, 40, 0.849);
   background-color: white;
-  margin: 20px 0;
+  margin: 15px 0;
   font-size: 20px;
 }
 
@@ -71,7 +71,7 @@ section {
 }
 
 .section-title {
-  margin: 15px 0;
+  color: gray;
 }
 
 .main-title {
@@ -138,4 +138,50 @@ section {
 .info {
   margin-bottom: 10px;
   color: white;
+}
+
+/* # MODALITà TABLET */
+
+@media screen and (min-width: 768px) {
+  .header-title {
+    color: rgba(245, 173, 40, 0.849);
+    background-color: white;
+    margin: 15px 0;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .main-title {
+    color: rgb(60, 11, 105);
+    margin: 15px 0;
+  }
+  .d-none {
+    display: inline;
+  }
+
+  .dessert-video {
+    max-width: 719px;
+  }
+
+  .info-preparation {
+    background-color: white;
+    padding-top: 20px;
+    margin-right: 29px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .main-info-title {
+    margin-bottom: 20px;
+  }
+
+  .main-info {
+    margin-bottom: 10px;
+    position: absolute;
+  }
 }
