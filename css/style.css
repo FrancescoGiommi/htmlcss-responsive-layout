@@ -121,4 +121,21 @@ section {
   margin: 15px 0;
 }
 
+.description {
+  padding-bottom: 25px;
+}
+
 /* # FOOTER */
+
+/* # INFO E LINK */
+
+.end-page {
+  background-color: rgb(111, 55, 184);
+  min-height: 120px;
+  text-align: center;
+  padding-top: 20px;
+}
+.info {
+  margin-bottom: 10px;
+  color: white;
+}
