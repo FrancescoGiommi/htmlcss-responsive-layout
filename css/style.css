@@ -277,3 +277,50 @@ section {
     margin: 0 10px;
   }
 }
+
+/* # MODALITà DESKTOP */
+
+@media screen and (min-width: 992px) {
+  /* # HEADER */
+
+  /* # TITOLO */
+
+  .container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+    max-width: 100%;
+  }
+
+  main {
+    background-color: rgb(214, 205, 205);
+  }
+
+  .info-preparation {
+    background-color: white;
+    padding-top: 20px;
+    margin-right: 29px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  #difficulty {
+    display: block;
+  }
+
+  #time {
+    display: block;
+  }
+
+  #quantity {
+    display: block;
+  }
+
+  #cost {
+    display: block;
+  }
+
+  #notes {
+    display: block;
+  }
+}
