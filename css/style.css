@@ -99,10 +99,29 @@ section {
   margin-bottom: 10px;
 }
 
+#difficulty {
+}
+
+#time {
+}
+
+#quantity {
+}
+
+#cost {
+}
+
+#notes {
+}
+
 .social-button {
   margin: 30px;
-  border-radius: 5px;
+}
+
+.background-button {
   background-color: white;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 /* # Preparation */
@@ -169,10 +188,7 @@ section {
     padding-top: 20px;
     margin-right: 29px;
     padding-left: 20px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-bottom: 80px;
     position: relative;
   }
 
@@ -182,6 +198,35 @@ section {
 
   .main-info {
     margin-bottom: 10px;
+  }
+
+  #difficulty {
     position: absolute;
+    left: 20px;
+    top: 60px;
+  }
+
+  #time {
+    position: absolute;
+    left: 290px;
+    top: 60px;
+  }
+
+  #quantity {
+    position: absolute;
+    right: 80px;
+    top: 60px;
+  }
+
+  #cost {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+  }
+
+  #notes {
+    position: absolute;
+    left: 290px;
+    top: 100px;
   }
 }
