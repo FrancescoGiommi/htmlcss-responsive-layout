@@ -37,6 +37,7 @@
 
 .d-flex {
   display: flex;
+  justify-content: space-around;
 }
 
 .d-block {
@@ -61,6 +62,10 @@ section {
   font-size: 20px;
 }
 
+/* # MAIN */
+
+/* # ANTEPRIMA E INFO PREPARAZIONE */
+
 .dessert-type {
   margin-left: 20px;
 }
@@ -72,6 +77,10 @@ section {
 .main-title {
   color: rgb(60, 11, 105);
   margin: 15px 0;
+}
+
+.dessert-video {
+  max-width: 450px;
 }
 
 .info-preparation {
@@ -96,12 +105,20 @@ section {
   background-color: white;
 }
 
-/* # MAIN */
+/* # Preparation */
 
-/* # ANTEPRIMA E INFO PREPARAZIONE */
+.description-title {
+  margin-bottom: 15px;
+}
 
-.tiramisù-video {
-  max-width: 450px;
+.row {
+  color: rgba(245, 173, 40, 0.849);
+  max-width: 60px;
+}
+
+.dessert-image {
+  max-width: 300px;
+  margin: 15px 0;
 }
 
 /* # FOOTER */
