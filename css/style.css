@@ -124,7 +124,27 @@ section {
   border-radius: 30px;
 }
 
-/* # Preparation */
+#color-facebook {
+  color: blue;
+}
+
+#color-twitter {
+  color: rgb(15, 212, 226);
+}
+
+#color-instagram {
+  color: rgb(175, 16, 175);
+}
+
+#color-pinterest {
+  color: red;
+}
+
+#color-youtube {
+  color: red;
+}
+
+/* # PREPARAZIONE */
 
 .description-title {
   margin-bottom: 15px;
@@ -161,11 +181,11 @@ section {
 
 /* # MODALITà TABLET */
 
-/* # HEADER */
-
-/* # TITOLO */
-
 @media screen and (min-width: 768px) {
+  /* # HEADER */
+
+  /* # TITOLO */
+
   .header-title {
     color: rgba(245, 173, 40, 0.849);
     background-color: white;
@@ -245,5 +265,15 @@ section {
   .banner {
     max-width: 719px;
     margin-bottom: 30px;
+  }
+
+  /* # PREPARAZIONE */
+
+  .image-container {
+    display: inline;
+  }
+
+  .description {
+    margin: 0 10px;
   }
 }
